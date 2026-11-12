@@ -1,0 +1,14 @@
+; Engine configuration file.
+; run/main_scene is intentionally unset: there is no scene yet.
+; /dev-story or the user sets it once a scene exists.
+
+config_version=5
+
+[application]
+
+config/name="Тот, кто просыпается"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
